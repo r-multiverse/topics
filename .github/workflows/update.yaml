@@ -26,7 +26,9 @@ jobs:
           use-public-rspm: true
 
       - name: Install helper R package.
-        run: install.packages("multiverse.internals")
+        run: |
+          install.packages("pak")
+          pak::pkg_install("r-multiverse/multiverse.internals@*release")
         shell: Rscript {0}
 
       - name: Check out the topics repository.
