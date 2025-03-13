@@ -5,6 +5,7 @@ project:
     - "*.md"
     - "!LICENSE.md"
     - "!README.md"
+    - "!topic.md"
 
 website:
   title: "R-multiverse"
