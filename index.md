@@ -2,7 +2,7 @@
 title: "R-multiverse topics"
 ---
 
-An R-multiverse topic is a list of packages that share a subject matter domain (for example, packages that fit Bayesian models).
+An R-multiverse topic is a list of packages that share a subject matter area.
 
 ## New topics
 
