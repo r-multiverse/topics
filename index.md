@@ -6,8 +6,7 @@ An R-multiverse topic is a list of packages that share a subject matter domain (
 
 ## New topics
 
-To contribute a new topic, submit a [pull request](https://github.com/r-multiverse/topics/pulls) to to add a [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics).
-The file name is the name of the topic, and the contents describe the topic.
+To contribute a new topic, submit a [pull request](https://github.com/r-multiverse/topics/pulls) to add a [topic listing file](https://github.com/r-multiverse/topics/tree/main/topics) that describes the topic.
 
 ## New packages
 
