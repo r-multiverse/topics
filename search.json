@@ -11,7 +11,7 @@
     "href": "index.html#new-topics",
     "title": "R-multiverse topics",
     "section": "New topics",
-    "text": "New topics\nTo contribute a new topic, submit a pull request to to add a topic listing file. The file name is the name of the topic, and the contents describe the topic."
+    "text": "New topics\nTo contribute a new topic, submit a pull request to add a topic listing file that describes the topic."
   },
   {
     "objectID": "index.html#new-packages",
