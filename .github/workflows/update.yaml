@@ -29,21 +29,24 @@ jobs:
           use-public-rspm: true
 
       - name: Install helper R package.
+        shell: Rscript {0}
         run: |
           install.packages("pak")
           pak::pkg_install("r-multiverse/multiverse.internals@*release")
-        shell: Rscript {0}
 
       - name: Check out the topics repository.
         uses: actions/checkout@v4
 
       - name: Update topics
+        shell: Rscript {0}
         run: |
           multiverse.internals::update_topics(
             path = getwd(),
             repo = "https://community.r-multiverse.org"
           )
-        shell: Rscript {0}
+
+      - name: Render site.
+        run: quarto render
 
       - name: Deploy to GitHub pages
         if: github.event_name != 'pull_request'
