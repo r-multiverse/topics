@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R-multiverse topics",
+    "section": "",
+    "text": "An R-multiverse topic is a list of packages that share a subject matter domain (for example, packages that fit Bayesian models)."
+  },
+  {
+    "objectID": "index.html#new-topics",
+    "href": "index.html#new-topics",
+    "title": "R-multiverse topics",
+    "section": "New topics",
+    "text": "New topics\nTo contribute a new topic, submit a pull request to to add a topic listing file. The file name is the name of the topic, and the contents describe the topic."
+  },
+  {
+    "objectID": "index.html#new-packages",
+    "href": "index.html#new-packages",
+    "title": "R-multiverse topics",
+    "section": "New packages",
+    "text": "New packages\nTo contribute a new package to an existing topic, add the topic URL to the URL field of the DESCRIPTION file (example here), then create a new GitHub/GitLab release of the package."
+  },
+  {
+    "objectID": "index.html#list-of-r-multiverse-topics",
+    "href": "index.html#list-of-r-multiverse-topics",
+    "title": "R-multiverse topics",
+    "section": "List of R-multiverse topics",
+    "text": "List of R-multiverse topics\n\nbayesian"
+  },
+  {
+    "objectID": "bayesian.html",
+    "href": "bayesian.html",
+    "title": "Topic: bayesian",
+    "section": "",
+    "text": "This topic lists packages useful for conducting Bayesian Statistics: for example, fitting models with Markov chain Monte Carlo or summarizing posterior samples.\n\n\n\nPackage\nTitle\n\n\n\n\njagstargets\nTargets for JAGS Pipelines\n\n\nstantargets\nTargets for Stan Workflows"
+  }
+]
