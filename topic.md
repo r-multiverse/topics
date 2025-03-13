@@ -4,7 +4,7 @@ title: "Topic: TOPIC"
 
 ABOUT
 
-|Package|Topic|
+|Package|Title|
 |:--|:--|
 PACKAGES
 
