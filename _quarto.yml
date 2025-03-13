@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.md"
+    - "!LICENSE.md"
+    - "!README.md"
+
+website:
+  title: "R-multiverse"
+  description: "A community-curated dual R package repository, powered by R-universe"
+  site-url: "https://r-multiverse.org"
+  favicon: "https://r-multiverse.org/logo/logo-hexbin.png"
+  image: "https://r-multiverse.org/logo/logo-hexbin.png"
+  open-graph: true
+  navbar:
+    logo: "https://r-multiverse.org/logo/logo-hexbin.png"
+    logo-alt: "R-multiverse"
+    left:
+    - text: R-multiverse
+      url: https://r-multiverse.org
+    - text: Topics
+      url: index.md
+    tools:
+      - icon: github
+        aria-label: "GitHub"
+        menu:
+          - text: Contribute
+            url: https://github.com/r-multiverse/topics
+          - text: Report Issue
+            url: https://github.com/r-multiverse/help
+  page-footer:
+    left: "&copy; 2025 the R-multiverse project."
+    right: "<a href='https://r-consortium.org' style='text-decoration:none'>Supported by the R Consortium</a>."
+
+format:
+  html:
+    theme: cosmo
+    toc: true
