@@ -19,7 +19,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install libglpk-dev
+          sudo apt-get install -y libcurl4-openssl-dev libglpk-dev
 
       - uses: r-lib/actions/setup-pandoc@v2
       - uses: quarto-dev/quarto-actions/setup@v2
