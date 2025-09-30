@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "web-applications.html",
+    "href": "web-applications.html",
+    "title": "Topic: web-applications",
+    "section": "",
+    "text": "This topic lists packages used primarly for web-based application development in R. Examples include packages enhacning the Shiny framework and packages used to create custom http-based APIs.\n\n\n\nPackage\nTitle"
+  },
+  {
+    "objectID": "bayesian.html",
+    "href": "bayesian.html",
+    "title": "Topic: bayesian",
+    "section": "",
+    "text": "This topic lists packages useful for conducting Bayesian Statistics: for example, fitting models with Markov chain Monte Carlo or summarizing posterior samples.\n\n\n\nPackage\nTitle\n\n\n\n\njagstargets\nTargets for JAGS Pipelines\n\n\nstantargets\nTargets for Stan Workflows"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "R-multiverse topics",
@@ -25,13 +39,6 @@
     "href": "index.html#list-of-r-multiverse-topics",
     "title": "R-multiverse topics",
     "section": "List of R-multiverse topics",
-    "text": "List of R-multiverse topics\n\nbayesian"
-  },
-  {
-    "objectID": "bayesian.html",
-    "href": "bayesian.html",
-    "title": "Topic: bayesian",
-    "section": "",
-    "text": "This topic lists packages useful for conducting Bayesian Statistics: for example, fitting models with Markov chain Monte Carlo or summarizing posterior samples.\n\n\n\nPackage\nTitle\n\n\n\n\njagstargets\nTargets for JAGS Pipelines\n\n\nstantargets\nTargets for Stan Workflows"
+    "text": "List of R-multiverse topics\n\nbayesian\nweb-applications"
   }
 ]
